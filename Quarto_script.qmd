@@ -27,7 +27,7 @@ ggplot(data, aes(x=x, y=y)) +
 
 ```
 
-[Me trying to understand Quarto](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2c2d3hlNWtvdmJmYmppazVrNmlpcDI2MDRta3BoeDEwNmpyZDNsMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dVu6tfWG6Rpe2t9oCR/giphy.gif)
+![Me trying to understand Quarto](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2c2d3hlNWtvdmJmYmppazVrNmlpcDI2MDRta3BoeDEwNmpyZDNsMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dVu6tfWG6Rpe2t9oCR/giphy.gif)[rto](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2c2d3hlNWtvdmJmYmppazVrNmlpcDI2MDRta3BoeDEwNmpyZDNsMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dVu6tfWG6Rpe2t9oCR/giphy.gif)
 
 ```{r}
 #| echo: false
