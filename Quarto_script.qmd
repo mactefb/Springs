@@ -1,0 +1,37 @@
+---
+title: "Quarto_workshop_2025"
+format: html
+editor: visual
+---
+
+# One hash
+
+## Two hashes
+
+### Three hashes
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+print("hello")
+
+library(ggplot2)
+data <- data.frame(x = 1:10, y = 1: 10)
+ggplot(data, aes(x=x, y=y)) + 
+  geom_point()
+
+```
+
+[Me trying to understand Quarto](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2c2d3hlNWtvdmJmYmppazVrNmlpcDI2MDRta3BoeDEwNmpyZDNsMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dVu6tfWG6Rpe2t9oCR/giphy.gif)
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
